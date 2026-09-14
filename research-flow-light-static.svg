@@ -1,23 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="156" viewBox="0 0 840 156" role="img" aria-labelledby="title desc">
-  <title id="title">AIPOCH Open-Science: Question, Analysis, Evidence</title>
-  <desc id="desc">A conceptual research workflow. A moving highlight connects the research question, Python and R analysis, and inspection of results and their sources.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="80" viewBox="0 0 640 80" role="img" aria-labelledby="title desc">
+  <title id="title">AIPOCH: AI for scientific discovery. Open tools for curious minds. Built to move science forward.</title>
+  <desc id="desc">A transparent, single-line research headline. Three phrases are typed, held for reading, and erased in turn, with a yellow cursor. A static version is shown when reduced motion is preferred.</desc>
   <style>
-    text{font-family:Consolas,"Liberation Mono",Menlo,monospace}
-    .stage{font-size:31px;font-weight:600;fill:#28362f;text-anchor:middle}
-    .caption{font-size:16px;fill:#65766b;text-anchor:middle}
-    .caption-q{opacity:1}.caption-a,.caption-e{opacity:0}.static-caption{display:block}
-    
+    text{font-family:"Roboto Mono",Consolas,"Liberation Mono",monospace;font-size:27px;font-weight:500;fill:#111111}
+    .prompt{fill:#84847B;font-weight:400}
+    .fallback{display:block}
+    .animated{display:none}
   </style>
-  <rect x=".5" y=".5" width="839" height="155" rx="14" fill="#f6f8f5" stroke="#dce5dd"/>
-  <text x="420" y="31" text-anchor="middle" font-size="17" font-weight="600" fill="#65766b">AIPOCH Open-Science</text>
-  <text class="stage q" x="170" y="79">Question</text>
-  <text class="stage a" x="420" y="79">Analysis</text>
-  <text class="stage e" x="670" y="79">Evidence</text>
-  <g fill="none" stroke="#65766b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M276 68H307M301 62l6 6-6 6"/><path d="M526 68H557M551 62l6 6-6 6"/>
-  </g>
-  <path d="M170 106H670" stroke="#d6e1d8" stroke-width="2"/>
-  <g fill="#d6e1d8"><circle cx="170" cy="106" r="3"/><circle cx="420" cy="106" r="3"/><circle cx="670" cy="106" r="3"/></g>
   
-  <text class="caption static-caption" x="420" y="138">Define. Execute. Inspect.</text>
+  <g class="fallback">
+    <text class="prompt" x="61" y="46">›</text>
+    <text x="90" y="46" textLength="480" lengthAdjust="spacingAndGlyphs">Built to move science forward.</text>
+    <rect x="572" y="22" width="3" height="29" rx="1" fill="#F1DD67"/>
+  </g>
 </svg>
