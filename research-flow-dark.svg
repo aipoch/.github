@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="156" viewBox="0 0 840 156" role="img" aria-labelledby="title desc">
+  <title id="title">AIPOCH Open-Science: Question, Analysis, Evidence</title>
+  <desc id="desc">A conceptual research workflow. A moving highlight connects the research question, Python and R analysis, and inspection of results and their sources.</desc>
+  <style>
+    text{font-family:Consolas,"Liberation Mono",Menlo,monospace}
+    .stage{font-size:31px;font-weight:600;fill:#e5eee9;text-anchor:middle}
+    .caption{font-size:16px;fill:#95aaa2;text-anchor:middle}
+    .caption-q{opacity:1}.caption-a,.caption-e{opacity:0}.static-caption{display:none}
+    
+    .q{animation:q 12s infinite}.a{animation:a 12s infinite}.e{animation:e 12s infinite}
+    .runner{animation:travel 12s infinite}.progress{transform-origin:170px 106px;animation:progress 12s infinite}
+    .caption-q{animation:caption-q 12s infinite}.caption-a{animation:caption-a 12s infinite}.caption-e{animation:caption-e 12s infinite}
+    @keyframes q{0%,24%,88%,96%{fill:#8cdbb5}30%,82%,100%{fill:#e5eee9}}
+    @keyframes a{0%,26%,62%,82%,100%{fill:#e5eee9}34%,56%,88%,96%{fill:#8cdbb5}}
+    @keyframes e{0%,60%,100%{fill:#e5eee9}68%,96%{fill:#8cdbb5}}
+    @keyframes travel{0%,24%{transform:translateX(0);opacity:1}36%,56%{transform:translateX(250px);opacity:1}70%,94%{transform:translateX(500px);opacity:1}98%{transform:translateX(500px);opacity:0}100%{transform:translateX(0);opacity:0}}
+    @keyframes progress{0%,24%{transform:scaleX(0);opacity:1}36%,56%{transform:scaleX(.5);opacity:1}70%,94%{transform:scaleX(1);opacity:1}98%{transform:scaleX(1);opacity:0}100%{transform:scaleX(0);opacity:0}}
+    @keyframes caption-q{0%,22%{opacity:1}28%,96%{opacity:0}100%{opacity:1}}
+    @keyframes caption-a{0%,28%{opacity:0}34%,54%{opacity:1}60%,100%{opacity:0}}
+    @keyframes caption-e{0%,60%{opacity:0}68%,94%{opacity:1}100%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){.q,.a,.e,.runner,.progress,.caption-q,.caption-a,.caption-e{animation:none!important}.motion,.captions{display:none}.static-caption{display:block}}
+  
+  </style>
+  <rect x=".5" y=".5" width="839" height="155" rx="14" fill="#111b19" stroke="#2b403a"/>
+  <text x="420" y="31" text-anchor="middle" font-size="17" font-weight="600" fill="#95aaa2">AIPOCH Open-Science</text>
+  <text class="stage q" x="170" y="79">Question</text>
+  <text class="stage a" x="420" y="79">Analysis</text>
+  <text class="stage e" x="670" y="79">Evidence</text>
+  <g fill="none" stroke="#95aaa2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M276 68H307M301 62l6 6-6 6"/><path d="M526 68H557M551 62l6 6-6 6"/>
+  </g>
+  <path d="M170 106H670" stroke="#344b42" stroke-width="2"/>
+  <g fill="#344b42"><circle cx="170" cy="106" r="3"/><circle cx="420" cy="106" r="3"/><circle cx="670" cy="106" r="3"/></g>
+  <g class="motion"><path class="progress" d="M170 106H670" stroke="#8cdbb5" stroke-width="2"/><g class="runner"><circle cx="170" cy="106" r="10" fill="#8cdbb5" opacity=".13"/><circle cx="170" cy="106" r="4" fill="#8cdbb5"/></g></g>
+  <g class="captions"><text class="caption caption-q" x="420" y="138">Define the question. Bring the context.</text><text class="caption caption-a" x="420" y="138">Run Python / R. Keep the work together.</text><text class="caption caption-e" x="420" y="138">Inspect the results and their sources.</text></g>
+  <text class="caption static-caption" x="420" y="138">Define. Execute. Inspect.</text>
+</svg>
